@@ -1,2 +1,6 @@
 # Design-Verification-of-AMBA-APB-Advanced-Peripheral-Bus-
-Designed and verified an AMBA APB slave using Verilog and SystemVerilog. Implemented APB read/write transactions following SETUP and ENABLE phases. Developed a SV-style testbench with monitor and scoreboard to validate protocol timing and data integrity through simulation.
+This project focuses on the design and functional verification of the AMBA APB protocol using Verilog and SystemVerilog. An APB-compliant slave interface was implemented to support register-level read and write transactions following the standard SETUP and ENABLE phases.
+
+A SystemVerilog UVM-style testbench was developed, including stimulus generation, monitoring, and a scoreboard to validate read/write responses against expected results. The design was verified through simulation by observing protocol handshakes, bus timing, and data integrity, ensuring correct and reliable APB communication.
+
+Key skills demonstrated: Verilog RTL design, SystemVerilog verification, APB protocol understanding, scoreboard-based checking, and simulation-driven debugging.
