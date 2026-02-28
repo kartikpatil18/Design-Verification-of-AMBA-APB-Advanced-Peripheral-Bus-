@@ -1,12 +1,12 @@
 `timescale 1ns / 1ps
 module apb_mem(pclk,prst,paddr,pselx,penable,pwrite,pwdata,pready,pslverr,prdata);
        
-        input pclk,prst;
-        input [31:0] paddr;
-        input pselx, penable, pwrite;
-        input [31:0] pwdata;
-        output reg pready, pslverr;
-        output reg[31:0] prdata;
+  input pclk,prst;
+  input [31:0] paddr;
+  input pselx, penable, pwrite;
+  input [31:0] pwdata;
+  output reg pready, pslverr;
+  output reg[31:0] prdata;
   
   reg [31:0] mem [31:0] ;
   
@@ -60,3 +60,4 @@ module apb_mem(pclk,prst,paddr,pselx,penable,pwrite,pwdata,pready,pslverr,prdata
     endcase
   end
 endmodule
+
